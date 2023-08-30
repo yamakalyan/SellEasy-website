@@ -1,0 +1,29 @@
+#root {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  /* height: 100vh; */
+}
+
+#navbar{
+  /* pink */
+  /* background: #e492cf;  */
+
+  /* blue */
+  /* background: #dfe2ff; */
+
+  /* green */
+  /* background: #baffe2; */
+
+  /* blurry */
+  /* background: transparent;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-bottom: 1px solid black; */
+
+  color: white;
+}
+a{
+  text-decoration: none;
+}
