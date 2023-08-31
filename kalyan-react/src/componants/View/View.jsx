@@ -1,25 +1,25 @@
-import React from "react";
 import Banner1 from "../Banners/Banner1";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const View = () => {
+  const params = useParams();
+
+  const decodeUrl = atob(params.id);
+
   return (
     <div>
       <div className="container py-5 ">
         <div className="row">
           <div className="col-md col-lg" data-aos="zoom-in">
             <div>
-              <img
-                src="https://as1.ftcdn.net/v2/jpg/05/64/11/42/1000_F_564114238_mcU43Fplgq3J1wpxYUCvDIew9JxUbJrB.jpg"
-                className="img-fluid"
-              />
+              <img src={decodeUrl} className="img-fluid" />
             </div>
           </div>
           <div className="col-md col-l my-3" data-aos="fade-left">
             <div>
               <div>
                 <p>#123456</p>
-                <h1>Lord krishna design</h1>
+                <h1>Product name here</h1>
                 <hr />
               </div>
               <div>
@@ -35,7 +35,7 @@ const View = () => {
               </div>
               <div className="input-group row mb-3">
                 <div className="col-md col-lg mb-3">
-                  <label for="basic-url" className="form-label">
+                  <label className="form-label">
                     Size *
                   </label>
                   <input
@@ -46,7 +46,7 @@ const View = () => {
                   />
                 </div>
                 <div className="col-md col-lg mb-3">
-                  <label for="basic-url" className="form-label">
+                  <label className="form-label">
                     Grams *
                   </label>
                   <input
@@ -57,7 +57,7 @@ const View = () => {
                   />
                 </div>
                 <div className="col-md col-lg mb-3">
-                  <label for="basic-url" className="form-label">
+                  <label className="form-label">
                     Qty *
                   </label>
                   <input
@@ -86,7 +86,7 @@ const View = () => {
               <div className="mb-3">
                 <div className=" gap-2">
                   <Link
-                    to='/book/123'
+                    to="/book/123"
                     className="btn btn-outline-primary w-100"
                   >
                     Book Product

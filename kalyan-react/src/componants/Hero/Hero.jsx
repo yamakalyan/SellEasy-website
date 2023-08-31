@@ -6,7 +6,7 @@ const Hero = () => {
           WEL COME <i className="bi bi-blockquote-right"></i>
         </h2>
 
-        <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-3 my-auto">
+        <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5 my-5 my-auto">
           <div
             className="col d-flex flex-column align-items-start gap-2 "
             data-aos="fade-right"

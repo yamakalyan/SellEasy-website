@@ -46,6 +46,11 @@ const CatagoryRoute = () => {
           "https://m.media-amazon.com/images/I/51fJm2bFjvL._AC_UY1100_.jpg"
         );
         break;
+      case "silver":
+        setImageUrl(
+          "https://m.media-amazon.com/images/I/71HwCNQqwkL._AC_UY1100_.jpg"
+        );
+        break;
 
       default:
         setImageUrl(
@@ -54,6 +59,8 @@ const CatagoryRoute = () => {
         break;
     }
   }, [params]);
+
+  const encodeUrl = btoa(imgUrl)
 
 
   return (
@@ -76,7 +83,7 @@ const CatagoryRoute = () => {
             </div>
             <div className="row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3">
               <div className="col" data-aos="zoom-in">
-                <div className="card shadow-sm ">
+                <div className="card shadow-sm img-fluid ">
                   <img src={imgUrl} className="img-fluid py-2 px-2" />
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
@@ -88,7 +95,9 @@ const CatagoryRoute = () => {
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
                           onClick={() => {
-                            navigator("/view/123");
+                            navigator(
+                              `/view/${encodeUrl}`
+                            );
                           }}
                         >
                           View
@@ -99,7 +108,7 @@ const CatagoryRoute = () => {
                 </div>
               </div>
               <div className="col" data-aos="zoom-in">
-                <div className="card shadow-sm ">
+                <div className="card shadow-sm img-fluid ">
                   <img src={imgUrl} className="img-fluid py-2 px-2" />
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
@@ -111,7 +120,7 @@ const CatagoryRoute = () => {
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
                           onClick={() => {
-                            navigator("/view/123");
+                            navigator(`/view/${encodeUrl}`);
                           }}
                         >
                           View
@@ -122,7 +131,7 @@ const CatagoryRoute = () => {
                 </div>
               </div>
               <div className="col" data-aos="zoom-in">
-                <div className="card shadow-sm ">
+                <div className="card shadow-sm img-fluid ">
                   <img src={imgUrl} className="img-fluid py-2 px-2" />
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
@@ -134,7 +143,7 @@ const CatagoryRoute = () => {
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
                           onClick={() => {
-                            navigator("/view/123");
+                            navigator(`/view/${encodeUrl}`);
                           }}
                         >
                           View
@@ -145,7 +154,7 @@ const CatagoryRoute = () => {
                 </div>
               </div>
               <div className="col" data-aos="zoom-in">
-                <div className="card shadow-sm ">
+                <div className="card shadow-sm img-fluid ">
                   <img src={imgUrl} className="img-fluid py-2 px-2" />
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
@@ -157,7 +166,7 @@ const CatagoryRoute = () => {
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
                           onClick={() => {
-                            navigator("/view/123");
+                            navigator(`/view/${encodeUrl}`);
                           }}
                         >
                           View
@@ -168,7 +177,7 @@ const CatagoryRoute = () => {
                 </div>
               </div>
               <div className="col" data-aos="zoom-in">
-                <div className="card shadow-sm ">
+                <div className="card shadow-sm img-fluid ">
                   <img src={imgUrl} className="img-fluid py-2 px-2" />
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
@@ -180,7 +189,7 @@ const CatagoryRoute = () => {
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
                           onClick={() => {
-                            navigator("/view/123");
+                            navigator(`/view/${encodeUrl}`);
                           }}
                         >
                           View
@@ -191,7 +200,7 @@ const CatagoryRoute = () => {
                 </div>
               </div>
               <div className="col" data-aos="zoom-in">
-                <div className="card shadow-sm ">
+                <div className="card shadow-sm img-fluid ">
                   <img src={imgUrl} className="img-fluid py-2 px-2" />
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
@@ -203,7 +212,7 @@ const CatagoryRoute = () => {
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
                           onClick={() => {
-                            navigator("/view/123");
+                            navigator(`/view/${encodeUrl}`);
                           }}
                         >
                           View
@@ -214,7 +223,7 @@ const CatagoryRoute = () => {
                 </div>
               </div>
               <div className="col" data-aos="zoom-in">
-                <div className="card shadow-sm ">
+                <div className="card shadow-sm img-fluid ">
                   <img src={imgUrl} className="img-fluid py-2 px-2" />
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
@@ -226,7 +235,7 @@ const CatagoryRoute = () => {
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
                           onClick={() => {
-                            navigator("/view/123");
+                            navigator(`/view/${encodeUrl}`);
                           }}
                         >
                           View
@@ -237,7 +246,7 @@ const CatagoryRoute = () => {
                 </div>
               </div>
               <div className="col" data-aos="zoom-in">
-                <div className="card shadow-sm ">
+                <div className="card shadow-sm img-fluid ">
                   <img src={imgUrl} className="img-fluid py-2 px-2" />
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
@@ -249,7 +258,7 @@ const CatagoryRoute = () => {
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
                           onClick={() => {
-                            navigator("/view/123");
+                            navigator(`/view/${encodeUrl}`);
                           }}
                         >
                           View
@@ -260,7 +269,7 @@ const CatagoryRoute = () => {
                 </div>
               </div>
               <div className="col" data-aos="zoom-in">
-                <div className="card shadow-sm ">
+                <div className="card shadow-sm img-fluid ">
                   <img src={imgUrl} className="img-fluid py-2 px-2" />
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
@@ -272,7 +281,7 @@ const CatagoryRoute = () => {
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
                           onClick={() => {
-                            navigator("/view/123");
+                            navigator(`/view/${encodeUrl}`);
                           }}
                         >
                           View
@@ -283,7 +292,7 @@ const CatagoryRoute = () => {
                 </div>
               </div>
               <div className="col" data-aos="zoom-in">
-                <div className="card shadow-sm ">
+                <div className="card shadow-sm img-fluid ">
                   <img src={imgUrl} className="img-fluid py-2 px-2" />
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
@@ -295,7 +304,7 @@ const CatagoryRoute = () => {
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
                           onClick={() => {
-                            navigator("/view/123");
+                            navigator(`/view/${encodeUrl}`);
                           }}
                         >
                           View
@@ -306,7 +315,7 @@ const CatagoryRoute = () => {
                 </div>
               </div>
               <div className="col" data-aos="zoom-in">
-                <div className="card shadow-sm ">
+                <div className="card shadow-sm img-fluid ">
                   <img src={imgUrl} className="img-fluid py-2 px-2" />
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
@@ -318,7 +327,7 @@ const CatagoryRoute = () => {
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
                           onClick={() => {
-                            navigator("/view/123");
+                            navigator(`/view/${encodeUrl}`);
                           }}
                         >
                           View
@@ -329,7 +338,7 @@ const CatagoryRoute = () => {
                 </div>
               </div>
               <div className="col" data-aos="zoom-in">
-                <div className="card shadow-sm ">
+                <div className="card shadow-sm img-fluid ">
                   <img src={imgUrl} className="img-fluid py-2 px-2" />
                   <div className="card-body">
                     <div className="d-flex justify-content-between align-items-center">
@@ -341,7 +350,7 @@ const CatagoryRoute = () => {
                           type="button"
                           className="btn btn-sm btn-outline-secondary"
                           onClick={() => {
-                            navigator("/view/123");
+                            navigator(`/view/${encodeUrl}`);
                           }}
                         >
                           View

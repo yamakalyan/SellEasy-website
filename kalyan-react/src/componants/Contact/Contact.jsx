@@ -10,19 +10,19 @@ export default function Contact() {
           <div className="row py-5" id="contact">
             <div className="col-md-5 col-lg-5 my-auto">
               <div>
-                <h3>Open timings: </h3>
+                <h3 className="fw-light text-primary">Open timings: </h3>
                 <p> 10:00 am - 8:00 pm</p>
               </div>
               <div>
-                <h3>Regd. office : </h3>
+                <h3 className="fw-light text-primary">Regd. office : </h3>
                 <p> Hyderabad-500072</p>
               </div>
               <div>
-                <h3>Mobile number : </h3>
+                <h3 className="fw-light text-primary">Mobile number : </h3>
                 <p>+91 9550049382</p>
               </div>
               <div>
-                <h3>Email : </h3>
+                <h3 className="fw-light text-primary">Email : </h3>
                 <p>yamakalyan6@gmail.com</p>
               </div>
             </div>
