@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const ContactRoute = () => {
   return (
@@ -20,7 +20,7 @@ const ContactRoute = () => {
             </div>
             <form>
               <div className="input-group mb-3">
-                <span class="input-group-text">Enter Name</span>
+                <span className="input-group-text">Enter Name</span>
                 <input
                   type="text"
                   className="form-control"
@@ -28,7 +28,7 @@ const ContactRoute = () => {
                 />
               </div>
               <div className="input-group mb-3">
-                <span class="input-group-text">Enter Mobile</span>
+                <span className="input-group-text">Enter Mobile</span>
                 <input
                   type="number"
                   className="form-control"
@@ -36,7 +36,7 @@ const ContactRoute = () => {
                 />
               </div>
               <div className="input-group mb-3">
-                <span class="input-group-text">Enter Email</span>
+                <span className="input-group-text">Enter Email</span>
                 <input
                   type="email"
                   className="form-control"
@@ -44,7 +44,7 @@ const ContactRoute = () => {
                 />
               </div>
               <div className="input-group mb-3">
-                {/* <span class="input-group-text" >@</span> */}
+                {/* <span className="input-group-text" >@</span> */}
                 <textarea
                   className="form-control"
                   rows="6"
@@ -62,6 +62,6 @@ const ContactRoute = () => {
       </div>
     </div>
   );
-}
+};
 
-export default ContactRoute
+export default ContactRoute;

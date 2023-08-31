@@ -5,8 +5,9 @@ const Catagory = () => {
     <div>
       <div className="container">
         <div className="my-5 py-3">
-          <div className="mb-4 text-center">
-            <h2 className="text-secondary">View By Category</h2>
+          <div className="mb-5 text-center">
+            <h2 className="text-dark">View By Category</h2>
+            <hr />
             <code className="lead">
               Browse through your favorite categories. We've got them all!
             </code>
@@ -16,7 +17,7 @@ const Catagory = () => {
               <Link to="/catagory/anklets">
                 <div className="card shadow-sm ">
                   <img
-                    src="https://as1.ftcdn.net/v2/jpg/05/64/11/42/1000_F_564114238_mcU43Fplgq3J1wpxYUCvDIew9JxUbJrB.jpg"
+                    src="https://rukminim2.flixcart.com/image/850/1000/l4iscy80/anklet/q/c/k/na-na-diamond-anklet-silver-gjh-original-imagfecuvmwk7p3u.jpeg?q=20"
                     className="img-fluid"
                   />
                   <div className="card-body text-center py-2">
@@ -32,7 +33,7 @@ const Catagory = () => {
               <Link to="/catagory/chains">
                 <div className="card shadow-sm ">
                   <img
-                    src="https://as1.ftcdn.net/v2/jpg/05/64/11/42/1000_F_564114238_mcU43Fplgq3J1wpxYUCvDIew9JxUbJrB.jpg"
+                    src="https://5.imimg.com/data5/SELLER/Default/2021/5/VP/AG/KJ/130019253/gents-chain.jpg"
                     className="img-fluid"
                   />
                   <div className="card-body text-center py-2">
@@ -50,7 +51,7 @@ const Catagory = () => {
                   {/* <iframe src="https://digitalindiaportal.co.in/users/pancard/Form49A.pdf" className="img-fluid"></iframe> */}
 
                   <img
-                    src="https://as1.ftcdn.net/v2/jpg/05/64/11/42/1000_F_564114238_mcU43Fplgq3J1wpxYUCvDIew9JxUbJrB.jpg"
+                    src="https://5.imimg.com/data5/LU/UL/DJ/SELLER-84633020/gents-bracelet.jpg"
                     className="img-fluid"
                   />
                   <div className="card-body text-center py-2">
@@ -66,7 +67,7 @@ const Catagory = () => {
               <Link to="/catagory/bangles">
                 <div className="card shadow-sm">
                   <img
-                    src="https://as1.ftcdn.net/v2/jpg/05/64/11/42/1000_F_564114238_mcU43Fplgq3J1wpxYUCvDIew9JxUbJrB.jpg"
+                    src="https://www.rnarayanjewellers.com/cdn/shop/products/Aasma-22kt-Gold-Traditional-Bangles-1_1024x1024.jpg?v=1661098338"
                     className="img-fluid"
                   />
                   <div className="card-body text-center py-2">
@@ -82,7 +83,7 @@ const Catagory = () => {
               <Link to="/catagory/earrings">
                 <div className="card shadow-sm">
                   <img
-                    src="https://as1.ftcdn.net/v2/jpg/05/64/11/42/1000_F_564114238_mcU43Fplgq3J1wpxYUCvDIew9JxUbJrB.jpg"
+                    src="https://cdn1.jewelxy.com/live/img/business_product/pMY9sEZYkC_20211225135731.jpg"
                     className="img-fluid"
                   />
                   <div className="card-body text-center py-2">
@@ -98,7 +99,7 @@ const Catagory = () => {
               <Link to="/catagory/mangalsutra">
                 <div className="card shadow-sm">
                   <img
-                    src="https://as1.ftcdn.net/v2/jpg/05/64/11/42/1000_F_564114238_mcU43Fplgq3J1wpxYUCvDIew9JxUbJrB.jpg"
+                    src="https://images.meesho.com/images/products/239569251/n2ffl_512.webp"
                     className="img-fluid"
                   />
                   <div className="card-body text-center py-2">
@@ -114,7 +115,7 @@ const Catagory = () => {
               <Link to="/catagory/neckwear">
                 <div className="card shadow-sm">
                   <img
-                    src="https://as1.ftcdn.net/v2/jpg/05/64/11/42/1000_F_564114238_mcU43Fplgq3J1wpxYUCvDIew9JxUbJrB.jpg"
+                    src="https://m.media-amazon.com/images/I/71Z2-z7KHlL.jpg"
                     className="img-fluid"
                   />
                   <div className="card-body text-center py-2">
@@ -129,7 +130,21 @@ const Catagory = () => {
             <div className="col" data-aos="zoom-in">
               <div className="card shadow-sm">
                 <img
-                  src="https://as1.ftcdn.net/v2/jpg/05/64/11/42/1000_F_564114238_mcU43Fplgq3J1wpxYUCvDIew9JxUbJrB.jpg"
+                  src="https://m.media-amazon.com/images/I/51fJm2bFjvL._AC_UY1100_.jpg"
+                  className="img-fluid"
+                />
+                <div className="card-body text-center py-2">
+                  <h5 className="card-text">Finger rings</h5>
+                  <p>
+                    <Link to="/">Explore {" >"}</Link>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col" data-aos="zoom-in">
+              <div className="card shadow-sm">
+                <img
+                  src="https://m.media-amazon.com/images/I/71HwCNQqwkL._AC_UY1100_.jpg"
                   className="img-fluid"
                 />
                 <div className="card-body text-center py-2">

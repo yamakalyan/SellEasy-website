@@ -3,10 +3,11 @@ export default function Contact() {
     <div>
       <div>
         <div className="container">
-          <h2 className="text-secondary text-center display-5">Reach Out to Us</h2>
-          <hr/>
+          <h2 className="text-secondary text-center display-5">
+            Reach Out to Us
+          </h2>
+          <hr />
           <div className="row py-5" id="contact">
-
             <div className="col-md-5 col-lg-5 my-auto">
               <div>
                 <h3>Open timings: </h3>
@@ -36,7 +37,7 @@ export default function Contact() {
               </div>
               <form>
                 <div className="input-group mb-3">
-                  <span class="input-group-text">Enter Name</span>
+                  <span className="input-group-text">Enter Name</span>
                   <input
                     type="text"
                     className="form-control"
@@ -44,7 +45,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="input-group mb-3">
-                  <span class="input-group-text">Enter Mobile</span>
+                  <span className="input-group-text">Enter Mobile</span>
                   <input
                     type="number"
                     className="form-control"
@@ -52,7 +53,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="input-group mb-3">
-                  <span class="input-group-text">Enter Email</span>
+                  <span className="input-group-text">Enter Email</span>
                   <input
                     type="email"
                     className="form-control"
@@ -60,7 +61,7 @@ export default function Contact() {
                   />
                 </div>
                 <div className="input-group mb-3">
-                  {/* <span class="input-group-text" >@</span> */}
+                  {/* <span className="input-group-text" >@</span> */}
                   <textarea
                     className="form-control"
                     rows="6"

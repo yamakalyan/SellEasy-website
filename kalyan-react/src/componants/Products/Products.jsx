@@ -6,14 +6,13 @@ const Products = () => {
     <div id="products">
       <div className="container">
         <div className="my-5 py-3">
-          <div className="mb-3 text-center">
-            <h2 className="text-secondary">Latest Styles & Designs</h2>
+          <div className="mb-5 text-center">
+            <h2 className="text-dark">Latest Styles & Designs</h2>
             <hr />
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              labore veritatis natus, odio animi rem provident possimus
-              cupiditate vitae, enim suscipit. Cum nihil similique minima
-              doloremque atque unde iste totam.
+            <p className="lead">
+              Explore our latest styles, where timeless elegance meets
+              contemporary allure. Discover adornments that<br/> embody modern
+              sophistication and exquisite craftsmanship.
             </p>
           </div>
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
@@ -62,7 +61,7 @@ const Products = () => {
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                       <button
+                      <button
                         type="button"
                         className="btn btn-sm btn-outline-secondary"
                         onClick={() => {
@@ -91,7 +90,7 @@ const Products = () => {
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                       <button
+                      <button
                         type="button"
                         className="btn btn-sm btn-outline-secondary"
                         onClick={() => {
@@ -120,7 +119,7 @@ const Products = () => {
                   </p>
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="btn-group">
-                       <button
+                      <button
                         type="button"
                         className="btn btn-sm btn-outline-secondary"
                         onClick={() => {

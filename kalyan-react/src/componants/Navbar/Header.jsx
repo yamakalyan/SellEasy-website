@@ -7,9 +7,9 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg" data-bs-theme="dark">
           {/* <nav className="navbar navbar-expand-lg " data-bs-theme="dark"> */}
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" to="/">
               Golden Jewellers
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
@@ -37,9 +37,9 @@ const Header = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item"></li>
-                <li class="nav-item dropdown">
+                <li className="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle"
+                    className="nav-link dropdown-toggle"
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -47,7 +47,7 @@ const Header = () => {
                   >
                     Catagory
                   </a>
-                  <ul class="dropdown-menu px-3">
+                  <ul className="dropdown-menu px-3">
                     <li>
                       <NavLink className="nav-link" to="/catagory/anklets">
                         Anklets

@@ -2,7 +2,9 @@ const Hero = () => {
   return (
     <div>
       <div className="container px-4 py-5 my-3" id="about">
-        <h2 className="pb-2 border-bottom">WEL COME TO OUR PAGE :{">"}</h2>
+        <h2 className="pb-2 border-bottom">
+          WEL COME <i className="bi bi-blockquote-right"></i>
+        </h2>
 
         <div className="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-3 my-auto">
           <div
@@ -10,15 +12,18 @@ const Hero = () => {
             data-aos="fade-right"
           >
             <h2 className="fw-bold text-body-emphasis">
-              Left-aligned title explaining these awesome features
+              Elegant Gems: Discover Timeless Glamour and Your Unique
+              Adornments.
             </h2>
             <p className="text-body-secondary">
-              Paragraph of text beneath the heading to explain the heading.
-              We'll add onto it with another sentence and probably just keep
-              going until we run out of words.
+              Welcome to our jewelry haven, where elegance finds its form.
+              Explore our collection of exquisite gems, each piece embodying
+              timeless glamour. Discover adornments that reflect your unique
+              style and aspirations, from classic to contemporary. Elevate your
+              elegance with jewelry that tells your story.
             </p>
-            <a href="#" className="btn btn-primary btn-lg">
-              Get in Touch 
+            <a href="#contact" className="btn btn-primary btn-lg">
+              Get in Touch
             </a>
           </div>
 
@@ -30,14 +35,15 @@ const Hero = () => {
               >
                 <div>
                   <span className="h4">
-                    <i class="bi bi-card-checklist"></i>
+                    <i className="bi bi-gem"></i>
                   </span>
                 </div>
                 <h4 className="fw-semibold mb-0 text-body-emphasis">
-                  Featured title
+                  Purity Guarantee
                 </h4>
                 <p className="text-body-secondary">
-                  Paragraph of text beneath the heading to explain the heading.
+                  Highest purity, our guarantee for genuine and authentic
+                  treasures
                 </p>
               </div>
 
@@ -47,14 +53,15 @@ const Hero = () => {
               >
                 <div>
                   <span className="h4">
-                    <i class="bi bi-bar-chart"></i>
+                    <i className="bi bi-list-stars"></i>
                   </span>
                 </div>
                 <h4 className="fw-semibold mb-0 text-body-emphasis">
-                  Featured title
+                  Sparkling Classics
                 </h4>
                 <p className="text-body-secondary">
-                  Paragraph of text beneath the heading to explain the heading.
+                  Explore elegant jewelry, timeless pieces reflecting luxury and
+                  your unique style.
                 </p>
               </div>
 
@@ -64,14 +71,13 @@ const Hero = () => {
               >
                 <div>
                   <span className="h4">
-                    <i class="bi bi-bus-front"></i>
+                    <i className="bi bi-patch-check"></i>
                   </span>
                 </div>
-                <h4 className="fw-semibold mb-0 text-body-emphasis">
-                  Featured title
-                </h4>
+                <h4 className="fw-semibold mb-0 text-body-emphasis">Trusted</h4>
                 <p className="text-body-secondary">
-                  Paragraph of text beneath the heading to explain the heading.
+                  Trust us for impeccable service and a commitment to your
+                  satisfaction.
                 </p>
               </div>
 
@@ -81,14 +87,14 @@ const Hero = () => {
               >
                 <div>
                   <span className="h4">
-                    <i class="bi bi-buildings"></i>
+                    <i className="bi bi-gear-wide-connected"></i>
                   </span>
                 </div>
                 <h4 className="fw-semibold mb-0 text-body-emphasis">
-                  Featured title
+                  Qualified workers
                 </h4>
                 <p className="text-body-secondary">
-                  Paragraph of text beneath the heading to explain the heading.
+                  Sparkling Transformations: Jewelry Repair & Restoration
                 </p>
               </div>
             </div>

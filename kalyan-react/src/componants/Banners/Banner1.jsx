@@ -7,12 +7,13 @@ const Banner1 = () => {
             <div className="my-5" data-aos="zoom-in">
               <div className="py-5 text-center">
                 <div className="container py-5">
-                  <h1 className="text-body-emphasis">Banner 1 Description</h1>
+                  <h1 className="text-body-emphasis">
+                    Adorn Your Dreams: Jewelry's Whisper of Elegance
+                  </h1>
                   <p className="col-lg-8 mx-auto lead">
-                    This takes the basic jumbotron above and makes its
-                    background edge-to-edge with a <code>.container</code>{" "}
-                    inside to align content. Similar to above, it's been
-                    recreated with built-in grid and utility classes.
+                    Like stars in the night sky, each jewel in our collection
+                    holds a story. Let them grace your life with elegance,
+                    whispering dreams of beauty and timeless allure.
                   </p>
                 </div>
               </div>

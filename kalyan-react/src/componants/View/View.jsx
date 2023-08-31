@@ -1,5 +1,6 @@
 import React from "react";
 import Banner1 from "../Banners/Banner1";
+import { Link } from "react-router-dom";
 
 const View = () => {
   return (
@@ -32,36 +33,36 @@ const View = () => {
               <div>
                 <p>Price Inclusive of all taxes. See full Price Breakup</p>
               </div>
-              <div class="input-group row mb-3">
+              <div className="input-group row mb-3">
                 <div className="col-md col-lg mb-3">
-                  <label for="basic-url" class="form-label">
+                  <label for="basic-url" className="form-label">
                     Size *
                   </label>
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Enter Size"
                     defaultValue="20 mm"
                   />
                 </div>
                 <div className="col-md col-lg mb-3">
-                  <label for="basic-url" class="form-label">
+                  <label for="basic-url" className="form-label">
                     Grams *
                   </label>
                   <input
                     type="number"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Enter Grams"
                     defaultValue="11.999"
                   />
                 </div>
                 <div className="col-md col-lg mb-3">
-                  <label for="basic-url" class="form-label">
+                  <label for="basic-url" className="form-label">
                     Qty *
                   </label>
                   <input
                     type="number"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Enter Quantity"
                     defaultValue="1"
                   />
@@ -71,25 +72,25 @@ const View = () => {
               <div className="mb-3">
                 <h6 className="mb-3">Gold Purity: 22 Karat</h6>
                 <p>
-                  <i class="bi bi-gem"></i> Purity Guaranteed.
+                  <i className="bi bi-gem"></i> Purity Guaranteed.
                 </p>
                 <p>
                   {" "}
-                  <i class="bi bi-stars"></i> High Quality.
+                  <i className="bi bi-stars"></i> High Quality.
                 </p>
                 <p>
                   {" "}
-                  <i class="bi bi-award"></i> Certified Product.
+                  <i className="bi bi-award"></i> Certified Product.
                 </p>
               </div>
               <div className="mb-3">
                 <div className=" gap-2">
-                  <button
-                    type="button"
+                  <Link
+                    to='/book/123'
                     className="btn btn-outline-primary w-100"
                   >
                     Book Product
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
